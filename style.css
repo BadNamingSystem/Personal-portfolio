@@ -245,3 +245,54 @@ body {
     background: var(--footer);
     border-top: 5px solid var(--navbar);
 }
+
+/* Screen responsiveness */
+@media (max-width: 900px){
+    .fa-brands,
+    .social-span {
+        font-size: 2rem;
+    }
+
+    .socials-grid {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 600px){
+    .socials-grid {
+        flex-direction: column;
+    }
+
+    #contact-section {
+        padding: 6rem 0 4rem;
+    }
+
+    #contact-section h1 {
+        font-size: 3rem;
+    }
+
+    #welcome-section h1 {
+        font-size: 3rem;
+    }
+
+    #project-section h1 {
+        font-size: 2rem;
+    }
+
+    #contact-section p {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    #welcome-section p {
+        font-size: 1.7rem;
+    }
+
+    .social-links {
+        margin: 2rem 0 0;
+    }
+
+    #navbar .nav-links {
+        font-size: 1.3rem;
+    }
+}
